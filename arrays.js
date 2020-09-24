@@ -16,3 +16,19 @@ console.log(listItems) //returns back a node list
 
 const arrayListItems = Array.from(listItems); //splits the word into characters
 console.log(arrayListItems);
+
+const hobbies = ['Cooking', 'Sports'];
+const personalData = [30, 'Max', {moreDetail: []}];
+
+const analyticsData = [[1, 1.6], [-5.4, 2.1]];
+
+// look through each number in the array
+for (const data of analyticsData) {
+    for (const dataPoint of data) {
+        console.log(dataPoint);
+    }
+}
+
+// arrays are index bases
+console.log(personalData[1]);
+//INDEXES START AT 0
