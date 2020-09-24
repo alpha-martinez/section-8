@@ -17,7 +17,7 @@ console.log(listItems) //returns back a node list
 const arrayListItems = Array.from(listItems); //splits the word into characters
 console.log(arrayListItems);
 
-const hobbies = ['Cooking', 'Sports'];
+// const hobbies = ['Cooking', 'Sports'];
 const personalData = [30, 'Max', {moreDetail: []}];
 
 const analyticsData = [[1, 1.6], [-5.4, 2.1]];
